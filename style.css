@@ -52,7 +52,7 @@ li{
 .team7_body{
     display: flex;
     justify-content: space-between;
-    gap: 3rem;
+    gap: 2rem;
     align-items: center;
 }
 
@@ -60,7 +60,14 @@ li{
     flex: 1 1 0;
 }
 
+.team7_right{
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+}
+
 .team7_right img{
+    flex: 1;
     max-width: 400px;
     max-height: calc(214px + 1rem);
     border-radius: 7px;
