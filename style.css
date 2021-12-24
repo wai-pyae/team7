@@ -16,7 +16,8 @@ html {
 }
 
 #first_wrapper{
-    background-color:rgb(101, 206, 224);
+    background-color:rgb(99, 3, 40);
+    color: white;
 }
 
 #first{
@@ -34,7 +35,7 @@ div #header{
 }
 
 ul {
-    list-style-type:none;
+    list-style:none;
     margin: 0;
     padding: 0;
 }
@@ -42,6 +43,7 @@ ul {
 li{
     flex: 1;
     flex-basis: auto;
+
 }
 
 .header_nav{
@@ -75,4 +77,5 @@ li{
 
 a{
     text-decoration: none;
+    color:hsl(0, 0%, 92%);;
 }
