@@ -15,6 +15,8 @@ html {
     justify-content: center;
 }
 
+/********************* FIRST SECTION ********************/
+
 #first_wrapper{
     background-color:rgb(99, 3, 40);
     color: white;
@@ -29,9 +31,15 @@ html {
     padding: 1rem 14rem 7rem;
 }
 
-div #header{
+#header{
   display: flex;
   justify-content: space-between;  
+  align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 600px;
 }
 
 ul {
@@ -48,7 +56,7 @@ li{
 
 .header_nav{
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .team7_body{
@@ -70,9 +78,77 @@ li{
 
 .team7_right img{
     flex: 1;
-    max-width: 400px;
     max-height: calc(214px + 1rem);
     border-radius: 7px;
+    object-fit: cover;
+}
+
+/************** SECOND SECTION************/
+#second{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.second_header{
+    margin-bottom: 4rem;
+}
+
+.randomInfo_wrapper{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+}
+
+.random_info{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.randomInfo_box{
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+}
+
+.randomInfo_box img{
+    flex: 1;
+    max-height: calc(155px + 1rem);
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+
+/****************** THIRD SECTION **************/
+
+#third_wrapper{
+    background-color: rgb(121, 116, 116);
+    display: flex;
+}
+
+#third{
+    display: flex;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    max-width: 550px;
+    flex-direction: column;
+    color: white;
+}
+
+
+#third h3{
+    margin-bottom:0;
+    font-weight: 500;
+    line-height: 2rem;
+    padding: auto;
+}
+
+#third h4{
+    margin: 0;
+    align-self: flex-end;
 }
 
 a{
