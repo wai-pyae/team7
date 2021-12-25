@@ -125,7 +125,7 @@ li{
 /****************** THIRD SECTION **************/
 
 #third_wrapper{
-    background-color: rgb(121, 116, 116);
+    background-color: rgb(100, 33, 33);
     display: flex;
 }
 
@@ -150,6 +150,69 @@ li{
     margin: 0;
     align-self: flex-end;
 }
+
+
+/**************   FOURTH SECTION ****************/
+
+#fourth_wrapper{
+    margin: auto;
+}
+
+#fourth{
+    display: flex;
+    background-color: rgb(228, 57, 94);
+    padding: 2rem;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+    max-width: 900px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    flex: 1;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+  }
+
+.contact-right{
+    display: flex;
+    align-items: center;
+  }
+
+#signUp_button{
+    background-color:inherit;
+    border: 2px solid white;
+    border-radius:10px;
+    padding: 8px;
+    color: white;
+    font-weight: 500;
+    padding-inline: 2rem;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+
+  /*************** footer ****************/
+  
+  a:hover {
+    color: #b68be7;
+  }
+  
+  #footer {
+    gap: 10px;
+    color: white;
+    background-color: hsl(350, 90%, 4%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+    
+  }
 
 a{
     text-decoration: none;
